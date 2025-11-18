@@ -104,7 +104,7 @@ body {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: green;
+    background-color: rgb(0, 243, 0);
 }
 
 .projects,
