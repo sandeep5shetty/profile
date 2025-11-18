@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #1a1a1a;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: "Geist", "sans-serif";
+    font-weight: 400;
+    font-style: none;
+    font-size: 32px;
+}
+
+
+.portfolio-container {
+    max-width: 58rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.intro-section {
+    padding: 0.44rem 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.text-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-section #greetings {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.intro-section img {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.intro-section h3 {
+    font-weight: 500;
+}
+
+.intro-section p {
+    font-size: 0.85rem;
+    color: rgb(102, 102, 102);
+}
+
+.intro-section p a {
+    color: #5757b3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.work-tag {
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin: 0.45rem 0;
+    font-size: 0.95rem;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.green-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.projects {
+    /* background-color: rebeccapurple; */
+    margin: 3.5rem 2rem;
+}
+
+.project-heading {
+    font-size: 1.2rem;
+    color: #6f6f6f;
+}
+
+.project-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.project-card {
+    width: 18rem;
+    height: 21rem;
+    background-color: #292929;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #3d3d3d;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.project-card .project-title {
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 1rem;
+}
+
+.project-card .project-desc {
+    color: gray;
+    font-size: 0.95rem;
+    margin: 0.15rem 1rem;
+}
+
+.project-links {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
