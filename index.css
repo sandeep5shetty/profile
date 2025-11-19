@@ -192,6 +192,10 @@ body {
     margin-bottom: 0.75rem;
 }
 
+#technologies {
+    color: #cecece;
+}
+
 #about-desc {
     color: rgb(139, 139, 139);
     line-height: 1.6;
