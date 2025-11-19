@@ -107,14 +107,19 @@ body {
     background-color: rgb(0, 243, 0);
 }
 
+
 .projects,
 .about {
-    /* background-color: rebeccapurple; */
-    margin: 3.5rem 2rem;
+    margin: 2.5rem 0.5rem;
+}
+
+.projects {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 .project-subheading {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     display: inline-block;
     color: #6f6f6f;
     margin-bottom: 0.75rem;
@@ -129,7 +134,7 @@ body {
 .project-card {
     width: 18rem;
     height: 21rem;
-    background-color: #292929;
+    background-color: #202020;
     color: white;
     border-radius: 8px;
     border: 1px solid #3d3d3d;
@@ -175,7 +180,7 @@ body {
 }
 
 #project-heading {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     display: block;
     color: #e4e4e4;
 }
@@ -220,7 +225,7 @@ body {
 
     .projects,
     .about {
-        margin: 2.5rem 1rem;
+        margin: 2.5rem 0rem;
     }
 
     .about {
